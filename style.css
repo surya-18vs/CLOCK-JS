@@ -13,7 +13,7 @@ body{
     height: 100vh;
      font-family: "Saira Stencil One", sans-serif;
    
-    background-image:linear-gradient(to right,rgb(200, 57, 253),rgb(218, 61, 254));
+    background-image:linear-gradient(to right,rgb(200, 57, 253),rgb(0, 61, 254));
 }
 .box{
     height: 100vh;
