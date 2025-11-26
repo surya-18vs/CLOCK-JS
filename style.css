@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Fugaz+One&family=Iceland&family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=Rouge+Script&family=Saira+Stencil+One&family=Silkscreen:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.saira-stencil-one-regular {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    height: 100vh;
+     font-family: "Saira Stencil One", sans-serif;
+   
+    background-image:linear-gradient(to right,rgb(139, 57, 253),rgb(218, 61, 254));
+}
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.hour,.min,.sec,.ampm{
+    width: 22rem;
+    height: 18rem;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    padding-top:20px;
+
+    
+}
+
+.ampm{
+    margin-left: 65px;
+    font-size: 70px;
+   
+}
+#ampm{
+    margin-top: 15px;
+}
+.dot{
+    width: 6rem;
+    background-color: transparent;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+button{
+    padding: 5px 30px 5px 30px;
+    font-size: 25px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    position: relative;
+    left: 42rem;
+    bottom: 15rem;
+}
+
